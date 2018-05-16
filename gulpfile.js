@@ -61,7 +61,7 @@ gulp.task('js', () => {
 
     // Next, we 'pipe' the files to concat which will concatenate all the files together and output to the file
     // we tell it to, in this case it's 'all.js'
-    .pipe(concat('all.js'))
+    .pipe(concat('main.js'))
 
     // Finally, lets uglify it, by passing it to our uglify. Uglify suggests we use PUMP in case any errors arise, but
     // for this exercise, I omitted it.
