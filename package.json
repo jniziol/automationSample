@@ -17,14 +17,20 @@
   },
   "homepage": "https://github.com/jniziol/automationSample#readme",
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-babel": "^7.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^4.1.0",
-    "gulp-sass": "^4.0.1",
-    "gulp-uglify": "^3.0.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0"
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "",
+    "babel-preset-env": "",
+    "gulp": "",
+    "gulp-autoprefixer": "",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "",
+    "gulp-imagemin": "",
+    "gulp-sass": "",
+    "gulp-uglify": ""
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.0.0",
+    "gulp-sourcemaps": "^2.6.4"
   }
 }
